@@ -1,5 +1,11 @@
 # Linux commands...
 
+## scp
+```
+scp -i ~/.ssh/credentials.pem ./data.tgz  user@server:../folder
+```
+
+
 ## tar
 
 ### tar a folder
