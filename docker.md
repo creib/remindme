@@ -4,5 +4,8 @@
 ```
 docker system df
 docker system prune
-docker system volume prune -a
+
+# delete all local images
+docker rmi -f $(docker images -aq)
+
 ```
